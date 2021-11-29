@@ -1,0 +1,137 @@
+@keyframes aumentar {
+    
+  100% {transform: scale(1.5);}
+  
+}
+
+* {
+  margin: 0px;
+}
+
+body {
+  background-image: url('https://www.mpd.com.br/blog/wp-content/uploads/2020/07/MASP-cultura-e-hist%C3%B3ria-no-primeiro-museu-moderno-do-Brasil-1140x694.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  display: block;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  height: 500px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 1em;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+p {
+  padding: 3px;
+  text-align: left; 
+  color: white;
+}
+
+select {
+  margin: 20px;
+}
+
+label {
+  color: white;
+}
+
+#nomeCidade {
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+}
+
+#sobreCidade {
+  padding: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+}
+
+#sites {
+  text-align: center;
+  display: block;
+}
+
+.asterisco {
+  font-size: 10px;
+  color: rgb(160, 160, 160);
+  padding-top: 10px;
+}
+
+.icones {
+   margin: 20px;
+   width: 70px;
+   height: 70px;
+}
+
+.sociais {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#topo {
+  padding-bottom: 40px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+ }
+
+.formulario {
+  margin: 100px;
+}
+
+.formulario-2 {
+  width: 190px;
+  text-align: right;
+  
+}
+
+.dados {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  padding: 10px;
+}
+
+.botao {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.efeito {
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  margin: 10px;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.efeito-1 {
+  background-color: rgb(95, 95, 95);
+}
+
+.efeito-1:hover {
+  animation: aumentar 0.7s;
+}
+
+.b1:hover {
+  animation: aumentar 0.5s;
+}
+
+
+

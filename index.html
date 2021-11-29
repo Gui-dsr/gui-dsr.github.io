@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 2</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header id="topo">
+        <h1 id="nomeCidade">São Paulo</h1>
+        <h2 id="sobreCidade">Faça seu cadastro abaixo para obter mais informações sobre a cidade de São Paulo</h2>
+    </header>
+    <div class="formulario">
+        <form action="" method="post">
+            <div>
+                <label class="dados" for="nome">Nome:*</label>
+                <input type="text" id="nome" maxlength="100"/>
+            </div>
+            <div>
+                <label class="dados" for="email">E-mail:*</label>
+                <input type="email" id="email" />
+            </div>
+            <div>
+                <label class="dados" for="telefone">Telefone:*</label>
+                <input type="number" id="telefone">
+            </div>
+            <div>
+                <label class="dados" for="data">Data de aniversário:*</label>
+                <input type="date" id="data">
+            </div>
+                <p>Você é:*</p>
+    <div class="formulario-2">
+            <p>
+                Maior de 18 anos
+              <input type="radio" name="size" class="b1" value="maior">
+            </p>
+            <p>
+                Menor de 18 anos
+              <input type="radio" name="size" class="b1" value="menor"> 
+            </p>
+    </div>        
+    <div class="formulario-3">
+        <label class="pontosT" for="pontos">Onde deseja ir:*</label>
+        <select name="pontos" id="pontos">
+            <option value="pontos0" disabled selected>Selecione</option>
+            <option value="pontos1">Ibirapuera</option>
+            <option value="pontos2">Paulista</option>
+            <option value="pontos3">MASP</option>
+        </select>
+    </div>
+    <p>Você veio por ser:</p>
+    <div>
+        <input type="checkbox" id="turista" class="b1" name="turista">
+        <label for="turista">Turista</label>
+      </div>
+      <div>
+        <input type="checkbox" id="residente" class="b1" name="residente">
+        <label for="residente">Residente</label>
+      </div>
+      <div>
+        <input type="checkbox" id="estudante" class="b1" name="estudante">
+        <label for="estudante">Estudante</label>
+      </div>
+    <div class="botao">
+        <button type="reset" class="efeito efeito-1">Resetar</button>
+        <button type="button" class="efeito efeito-1">Enviar</button> 
+    </div>
+    <p class="asterisco">*: obrigatório preencher</p>
+        </form>
+    </div>
+    <p class="sociais">Nos siga nas nossas redes sociais!</p>
+    <footer id="sites">
+        <a href="https://www.instagram.com/prefsp/?hl=pt-br" target="_blank"><img src="https://cdn-icons.flaticon.com/png/128/3955/premium/3955024.png?token=exp=1638205728~hmac=e5813265b6c2b245d65411c28fe139db" class="icones">
+        </a>
+        <a href="https://www.facebook.com/PrefSP/" target="_blank">
+            <img src="https://cdn-icons.flaticon.com/png/128/3955/premium/3955011.png?token=exp=1638205787~hmac=75a352373df789d176076518e12a9c38" class="icones" >
+        </a>
+    </footer>
+</body> 
+</html>
+
+
